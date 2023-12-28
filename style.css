@@ -1,0 +1,122 @@
+/* Стили тегов
+
+/* Стили для основного контейнера */
+body {
+    margin: 0; /* Убираем внешний отступ у body */
+    padding: 0; /* Убираем внешний отступ у body */
+}
+
+/* Стили для заголовка */
+header {
+    background-color: #008000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Courier New";
+}
+
+/* Стили для нижнего колонтитула */
+footer {
+    background-color: #008000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Arial";
+}
+
+/* Стили для всех ссылок на сайте */
+a {
+    color: #FF0000; /* Задаем красный цвет для текста ссылок */
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: disc; /* Маркеры в виде кругов */
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+li:nth-child(2) {
+    letter-spacing: 5px;
+    color: cyan;
+}
+
+aside {
+    float: right;
+    width: 130px;
+}
+
+table {
+    margin-top: -160px;
+    border: 1px solid silver;
+}
+
+td {
+    border: solid 1px silver;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+
+/* Стили классов
+
+/* Стили для основного контейнера */
+.main-container {
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    background: blue;
+    color: white;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    word-spacing: 10px;
+    margin: 0;
+}
+
+.figure {
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+/* Дополнительные стили для контента */
+.content {
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера по горизонтали */
+}
+
+.red-text {
+    color: #FF0000;
+}
